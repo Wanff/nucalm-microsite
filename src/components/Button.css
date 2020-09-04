@@ -1,0 +1,25 @@
+.feedbackButton{
+    border-radius: 50px;
+    width: 12rem;
+    height: 40px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.feedbackText{
+    font-size: 24px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#60ceff, #2e85a1 );
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+
+}

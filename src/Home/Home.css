@@ -1,0 +1,61 @@
+body{
+    background-color: #222222;
+    font-family: Helvetica;
+    color: white;
+    margin: 0;
+  }
+  
+.nucalm-img-home{
+  width: 65%;
+  padding-top: 150px;
+  display: block;
+  margin: auto;
+  padding-bottom: 30px;
+
+}
+
+.hero{
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.subHero{
+  color: white;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 300;
+  width: 75%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.loginButton{
+  border-radius: 50px;
+  width: 30%;
+  height: 43px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.loginButton:hover{
+  background: #333333;
+}
+
+.loginText{
+  font-size: 25px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#03587C, #0196C9 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.buttonDiv{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}

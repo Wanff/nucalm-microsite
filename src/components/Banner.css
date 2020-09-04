@@ -1,0 +1,37 @@
+.banner{
+    background-color:#333333;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.confidential{
+    font-size: 25px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#0196c9, #17d5db );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    letter-spacing: 1px;
+    display: inline;
+    float:left;
+}
+
+.confidential-site{
+    font-size: 25px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#0196c9, #17d5db );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    letter-spacing: 1px;
+    display: inline;
+    float: right;
+}
+
+@media only screen and (max-width: 630px) {
+    .confidential-site{
+        display: none;
+    }
+}

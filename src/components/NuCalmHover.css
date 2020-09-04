@@ -1,0 +1,41 @@
+/* .hover-star{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: inline;
+} */
+
+.hover-text{
+    font-weight: 300;
+    font-size: 18px;
+    position: absolute;
+    top: -13.5%;
+    left: 78%;
+    right: 0;
+    width: 750%;
+    bottom: 0;
+    margin: auto; 
+    color: white;
+    text-align: center;
+    /* background-color: #222323; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+.hover-title{
+    margin: 0;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.hover-title-bar{
+    font-weight: 300;
+    font-size: 17px;
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.hover-title-bar:hover{
+    color: gold;
+}
