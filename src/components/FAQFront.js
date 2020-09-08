@@ -15,8 +15,8 @@ class FAQFront extends React.Component {
 render() {
   return (
    <div style = {{display: 'inline'}}>
-        <button className="feedbackButton" type="" onClick={this.togglePop}>
-            <p className = "feedbackText">See More</p>
+        <button className="feedbackButton" type="" onClick={this.togglePop} style={{width:"400px"}}>
+            <p className = "feedbackText">Read More FAQs</p>
         </button>
     {this.state.seen ? <PopUp toggle={this.togglePop}/> : null}
    </div>

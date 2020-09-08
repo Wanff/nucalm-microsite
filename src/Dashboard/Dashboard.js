@@ -41,8 +41,8 @@ const Dashboard = () =>{
     <p className = "subHero-tracks">Everything you need to know about NuCalm 3.0—how NuCalm 3.0 will bring you the most effective results you’ve ever experienced, how your interaction with the app will change, the benefits of already being in the NuCalm community, how to download the new app, why we evolved, and what’s next.</p>
     <ReactPlayer url='https://www.youtube.com/watch?v=yd0hVaTReIA' controls className = "nucalm-video" style={{borderRadius: "50px"}}/>
     <a target="_blank" href="https://drive.google.com/file/d/1hFJkCY6wW6UvR1UjVgMb2avK42kowX1q/view?usp=sharing">
-        <button className="feedbackButton" type="">
-            <p className = "feedbackText">Read More</p>
+        <button className="feedbackButton" type="" style={{width:"400px"}}>
+            <p className = "feedbackText">Read Webinar Transcript</p>
         </button>
     </a>
 
