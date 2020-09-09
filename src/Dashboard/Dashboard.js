@@ -47,7 +47,7 @@ const Dashboard = () =>{
     </a>
 
     <h1 className = "hero-tracks"> NuCalm 3.0 Sneak Peek</h1>
-        <p className = "subtext-tracks"><span className = "span-mobile-hover">Hover over the sidebar</span><span className = "span-mobile-read">Read the feature descriptions and check out the app screenshots</span> below to get a sneak peek of the NuCalm 3.0 App's exciting new features including a larger catolog of new neuroacoustic software, outcome-driven journeys, greater variation on time selection, session statistics, educational content, and more. </p>
+        <p className = "subtext-tracks"><span className = "span-mobile-hover"> Below you will find the three main screens that correspond to experiencing a NuCalm journey. The first screen is the new home page, the second shows where you will select your journey time, and the third will display your session summary. Hover over the sidebar</span><span className = "span-mobile-read">Read the feature descriptions and check out the app screenshots</span> below to get a sneak peek of the NuCalm 3.0 App's exciting new features including a larger catalog of new neuroacoustic software, outcome-driven journeys, greater variation on time selection, session statistics, educational content, and more. </p>
     <div className = "nucalm-hover-box">
 
     </div>
@@ -113,9 +113,9 @@ const Dashboard = () =>{
     <p className = "subtext-tracks">We are taking the guesswork out of which track to select to simplify your set-up and maximize your outcome. Click on each journey category to learn more!</p>
 
     <div>
-        <PopUpTrackFront img = {fixcar} text_overlay = "Recharge" title = "Recharge" icon1 = {creativity} icon2 = {stress_relief} icon3 = {focus} text1 = "This journey is the ultimate quick fix to use when you're low on energy, lacking focus, and in need of a pick-me-up. " text2 = "The concentrated neuroacoustic software rapidly takes your mind and body to a place of restoration and recovery, allowing your body to recharge on a cellular level in just 20 minutes. " text3="Afterward, you can expect to feel calm, yet energized, focused, and ready to take on the day. " addit_info = "Power Nap     *Use this track when you don't have time for a full NuCalm Reboot or Rescue. "popUpImg = {pretty_lightbulb} style={{left: "18%"}}/>
-        <PopUpTrackFront img = {windmill} text_overlay = "Reboot" title = "Reboot" icon1 = {sleep_recovery} icon2 = {energy} icon3 = {stress_relief}text1 = "Replenish your energy, your clarity, and your confidence as multilayered sonic textures melt away your worries and your stress. " text2="The neuroacoustic software in this journey guides your mind and body to a state of deep relaxation, dissolving left-brain thinking and opening up an expanded perception. " text3="Afterward, you can expect to feel grounded, balanced, patient, calm, and inspired." addit_info = "Relax" popUpImg = {windmill_day}/>
-        <PopUpTrackFront img = {lifesaver} text_overlay = "Rescue" title = "Rescue" icon1 = {pain_management} icon2 = {muscle_repair} icon3 = {immunity_building} text1 = "Be liberated from habitual thoughts and reactions and travel effortlessly to a place of well-being and recovery. " text2="The neuroacoustic software in this powerful journey guides your mind and body to the optimal state for deep recovery and restoration. In this immersive sound bath where mathematics meets music, your autonomic nervous system will be able to repair, replenish, and restore wholeness. " text3 = "Afterward, you can expect to feel fully restored and ready to realize your full potential." addit_info = "Recovery/Deep Recovery"popUpImg = {sea_bench}/>
+        <PopUpTrackFront img = {fixcar} text_overlay = "Recharge" title = "Recharge" icon1 = {creativity} icon2 = {stress_relief} icon3 = {focus} text1 = "This journey is the ultimate quick fix to use when you're low on energy, lacking focus, and in need of a pick-me-up. " text2 = "The concentrated neuroacoustic software rapidly takes your mind and body to a place of restoration and recovery, allowing your body to recharge on a cellular level in just 20 minutes. " text3="Afterward, you can expect to feel calm, yet energized, focused, and ready to take on the day. " addit_info = "If you're looking for songs like Power Nap I or Power Nap II, you will enjoy the Recharge journeys." popUpImg = {pretty_lightbulb} style={{left: "18%"}}/>
+        <PopUpTrackFront img = {windmill} text_overlay = "Reboot" title = "Reboot" icon1 = {sleep_recovery} icon2 = {energy} icon3 = {stress_relief}text1 = "Replenish your energy, your clarity, and your confidence as multilayered sonic textures melt away your worries and your stress. " text2="The neuroacoustic software in this journey guides your mind and body to a state of deep relaxation, dissolving left-brain thinking and opening up an expanded perception. " text3="Afterward, you can expect to feel grounded, balanced, patient, calm, and inspired." addit_info = "If you're looking for songs like Relax I, Relax II, or Recovery I, you will enjoy teh Reboot 40 minute journeys." popUpImg = {windmill_day}/>
+        <PopUpTrackFront img = {lifesaver} text_overlay = "Rescue" title = "Rescue" icon1 = {pain_management} icon2 = {muscle_repair} icon3 = {immunity_building} text1 = "Be liberated from habitual thoughts and reactions and travel effortlessly to a place of well-being and recovery. " text2="The neuroacoustic software in this powerful journey guides your mind and body to the optimal state for deep recovery and restoration. In this immersive sound bath where mathematics meets music, your autonomic nervous system will be able to repair, replenish, and restore wholeness. " text3 = "Afterward, you can expect to feel fully restored and ready to realize your full potential." addit_info = "If you're looking for songs like Recovery II, Recovery III, or Deep Recovery, you will enjoy the Rescue 50 minute journeys."popUpImg = {sea_bench}/>
 {/* 
         <img src = {road} alt = "NuCalm Session" className="track_categories"/>
         <img src = {windmill} alt = "NuCalm Session" className="track_categories"/>
@@ -123,13 +123,19 @@ const Dashboard = () =>{
         <img src = {lifesaver} alt = "NuCalm Session" className="track_categories"/> */}
     </div>
     
-    <h1 className = "hero-tracks"> Frequently Asked Questions </h1>
+    <h1 className = "hero-tracks"> What You Need To Know For Getting Started With NuCalm 3.0</h1>
 
     <p className = "question_main">Does my lifetime access allow me to use the new app? </p>
     <p className = "answer_main">Yes! With the lifetime access you originally purchased, you will never have to spend another dime on NuCalm's neuroacoustic software - in whatever app format it comes in. Your only ongoing cost will be for NuCalm Biosignal Processing discs, and the occasional eye mask.</p>
 
     <p className = "question_main"> How do I switch over to the new app?</p>
-    <p className = "answer_main">When the NuCalm 3.0 App is available, it will show up as an update in your App Store or Google Play Store. While connected to the internet, update the app and NuCalm 3.0 will appear on your phone or smart device. Please note that your old password for the NuCalm app will have expired and you will need to be reset to a more secure one before you can log in to the new app. You will be emailed this information and the link to reset your password, or you can reset your password by clicking on "Forgot Password?" in the new app. </p>
+    <p className = "answer_main">
+        <ol>
+            <li>The NuCalm 3.0 App will show up as an available update in the App Store or Google Play Store.</li>
+            <li>You will need to reset your password the first time you log into the new app. Click on "Forgot my password" and enter in the email address associated to your NuCalm account.</li>
+            <li>Check your email inbox for the reset password link. Create a new password (minimum 8 characters, 1 uppercase letter, 1 lowercase letter, 1 number and 1 symbol). </li>
+            <li>Go back to the NuCalm 3.0 App and log in with your new password.</li> 
+        </ol> </p>
             
     <p className = "question_main">Which of the new tracks are similar to the old ones? How do I find my favorite track? </p>
     <p className = "answer_main">We have a large collection of new and more sophisticated tracks embedded throughout the NuCalm 3.0 Journeys, but we have kept your favorites in there as well. We are taking the stress out of track selection - you will choose your outcome and time, we'll give you what you need.</p>
