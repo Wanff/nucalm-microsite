@@ -24,7 +24,7 @@ export default class PopUp extends Component {
           <p className = "popUpContentText">{this.props.text1}</p>
           <p className = "popUpContentText">{this.props.text2}</p>
           <p className = "popUpContentText">{this.props.text3}</p>
-          <p className = "popUpContentText"><strong>NuCalm 2.0 Comparable: </strong>{this.props.addit_info}</p>
+          <p className = "popUpContentText"><strong>NuCalm<sup><sup>®</sup></sup> 2.0 Comparable: </strong>{this.props.addit_info}</p>
         </div>
         </div>
       </div>
